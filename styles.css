@@ -1,0 +1,73 @@
+*{
+    background-color: black;
+    font-family: 'Caveat', cursive;
+    font-family: 'Chango', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+    color: goldenrod;
+    font-size: 40px;
+    display:flex;
+    justify-content: center;;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.container div{
+width: 100%;
+height: 500px;
+background-color: gray;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#rock img{
+  width: 200px;  
+}
+
+#paper img{
+    width: 200px;  
+  }
+
+#scissor img{
+    width: 200px;  
+}
+
+.marcador{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+#scores{
+    background-color: black;
+    width: 60%;
+    color:aqua;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#restart {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor apuntador al pasar el ratón */
+    font-size: 16px; /* Tamaño del texto */
+  }
+
+  #restart:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el ratón */
+  }
